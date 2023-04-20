@@ -4,7 +4,7 @@ const { User } = require("../models/user.models");
 const authVerify = require("../middleware/authVerify");
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
-const mySecret = process.env["secret"];
+const mySecret = process.env["SECRET"];
 const jwt = require("jsonwebtoken");
 
 router
